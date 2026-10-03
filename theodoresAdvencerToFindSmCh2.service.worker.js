@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1790980825|77473605962';
+const CACHE_VERSION = '1791035734|132381997038';
 /** @type {string} */
 const CACHE_PREFIX = 'theodoresAdvence-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
@@ -17,7 +17,7 @@ const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 const CACHED_FILES = ["theodoresAdvencerToFindSmCh2.html","theodoresAdvencerToFindSmCh2.js","theodoresAdvencerToFindSmCh2.offline.html","theodoresAdvencerToFindSmCh2.icon.png","theodoresAdvencerToFindSmCh2.apple-touch-icon.png","theodoresAdvencerToFindSmCh2.audio.worklet.js","theodoresAdvencerToFindSmCh2.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
-const CACHEABLE_FILES = ["theodoresAdvencerToFindSmCh2.wasm","theodoresAdvencerToFindSmCh2.pck","theodoresAdvencerToFindSmCh2.side.wasm","libterrain.web.debug.wasm32.wasm"];
+const CACHEABLE_FILES = ["theodoresAdvencerToFindSmCh2.wasm","theodoresAdvencerToFindSmCh2.pck"];
 const FULL_CACHE = CACHED_FILES.concat(CACHEABLE_FILES);
 
 self.addEventListener('install', (event) => {
